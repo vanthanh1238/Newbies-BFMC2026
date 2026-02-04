@@ -1,0 +1,2 @@
+alglib:communication:path_planning:persistence:utils
+-DCATKIN_DEVEL_PREFIX=/home/thanh/planning_ws/devel -DCMAKE_INSTALL_PREFIX=/home/thanh/planning_ws/install -G Unix Makefiles
