@@ -1,3 +1,6 @@
 [submodule "Embedded_Platform"]
 	path = Embedded_Platform
 	url = https://github.com/vanthanh1238/Embedded_Platform.git
+[submodule "src/Simulator"]
+	path = src/Simulator
+	url = https://github.com/vanthanh1238/SIMULATOR.git
