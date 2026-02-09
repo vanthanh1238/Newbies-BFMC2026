@@ -59,6 +59,17 @@ class LaneKeeping(Enum):
     msgID = 5
     msgType = "int"
 
+class ObstacleDetection(Enum):
+    # Với việc nhận diện vật cản thì ta cần đặt nó ở queue "General" - Bình thường là được
+    Queue = "General"
+    # Đầy sẽ là nơi dùng để gửi tin nhắn về vật cản lên dashboard - ThreadCamera
+    Owner = "threadCamera"
+    # Ta phải đặt msgID cho nó vì đây là cách phân biệt các class chung cùng 1 chủ (owner)
+    msgID = 6
+    # Và message này dùng để báo xem là có vật cản hay là không nên là ta chỉ cần báo có hay là 
+    # không có ---> Boolean
+    msgType= "bool"
+
 ################################# processCarsAndSemaphores ##################################
 class Cars(Enum):
     Queue = "General"
