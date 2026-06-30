@@ -9,7 +9,7 @@ This repository contains the BFMC 2026 project workspace, including embedded pla
 - Embedded_Platform/  - Contains embedded system source and platform-specific files.
 - monitoring/ - Contains monitoring and diagnostics tools or scripts.
 - Project_status/ - Project status and video
-- src/ - Contains a ROS/robotics planning workspace with `CMakeLists.txt` and several packages.
+- src/ - Contains a ROS/robotics planning workspace and simulation workspace with `CMakeLists.txt` and several packages.
     
 ## Notes
 - `planning_ws/` is a ROS workspace with build artifacts and source packages for path planning, communication, persistence, and utilities.
